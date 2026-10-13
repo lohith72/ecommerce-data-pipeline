@@ -1,0 +1,25 @@
+
+# Python virtual environment
+.venv/
+
+# Python cache and test cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.idea/
+.DS_Store
+
+# Log files
+logs/*.log
+
+# Raw and generated data
+data/raw/
+data/processed/
+data/quarantine_orders.csv
